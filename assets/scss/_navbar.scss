@@ -1,0 +1,54 @@
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    a {
+        color: $white;
+        font-size: 30px;
+        font-weight: 400;
+        transition: 0.33s all;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    .navbar-collapse {
+        justify-content: end;
+        // align-items: center;
+    }
+    .btn_demo {
+        .shedule_btn {
+            background-color: $light-blue;
+            padding: 12px 40px 12px 40px;
+            border: none;
+            font-size: 30px;
+            font-weight: 400;
+            color: $white;
+            border-radius: 35px;
+            transition: all 0.53s ease;
+            margin-left: 25px;
+            &:hover {
+                background-color: rgba(71, 96, 255, 1);
+            }
+        }
+    }
+    .navbar-nav {
+        display: flex;
+        // flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        align-items: center;
+        @media(min-width: 320px) and (max-width: 768px) {
+            align-items: flex-start;
+        }
+        .nav-item a {
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: 0 !important;
+        }
+    }
+}
+
+.navbar-toggler-icon {
+    background: url('../../img/menu_icon.svg') no-repeat !important;
+    background-size: 30px 30px !important;
+}

@@ -1,0 +1,518 @@
+@import './colors';
+@import './fonts';
+@import './navbar';
+* {
+    color: $main-color;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 2300px;
+}
+
+.container-fluid {
+    max-width: 2300px;
+}
+
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// section hero
+.hero {
+    // padding-top: 20px;
+    background: linear-gradient(-33deg, rgba(59, 214, 246, 1) 0%, rgba(71, 96, 255, 1) 100%);
+    height: 100%;
+    .hero-row {
+        padding: 120px 25px 120px 25px;
+        .left-col {
+            align-items: center;
+            margin-top: 12%;
+            // padding-left: 6.5%;
+            .heading h1 {
+                color: $white;
+                font-family: Inter;
+                font-size: 150px !important;
+                font-weight: 600;
+            }
+            .text {
+                color: #fbfbfb;
+                font-family: "Open Sans";
+                font-size: 30px;
+                font-weight: 400;
+            }
+            .btn_block {
+                display: flex;
+                align-items: center;
+                .learn-more {
+                    font-size: 15px;
+                    font-weight: 400;
+                    font-family: "Open Sans";
+                    background-color: $main-color;
+                    padding: 10px 30px 10px 40px;
+                    color: $white;
+                    border: none;
+                    border-radius: 30px;
+                    transition: all 0.33s;
+                    display: flex;
+                    align-items: center;
+                    .bx {
+                        color: $white;
+                        font-size: 22px;
+                        margin-top: 3px;
+                        margin-left: 15px;
+                    }
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+                .watch-demo {
+                    font-size: 15px;
+                    font-weight: 400;
+                    font-family: "Open Sans";
+                    background-color: transparent;
+                    padding: 10px 30px 10px 40px;
+                    color: $white;
+                    border: none;
+                    border-radius: 30px;
+                    display: flex;
+                    align-items: center;
+                    transition: all 0.33s;
+                    margin-left: 30px;
+                    .bx {
+                        color: $white;
+                        font-size: 22px;
+                        margin-top: 3px;
+                        margin-left: 15px;
+                    }
+                    &:hover {
+                        background-color: $main-color;
+                    }
+                }
+            }
+        }
+        .right-col {
+            .block-img {
+                position: relative;
+                left: 146px;
+                top: 250px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// section hero
+
+/*------------*/
+
+// section partners
+.partners {
+    max-width: 1700px;
+    margin: auto;
+    background-color: #fff;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    .partners-text {
+        color: $main-color;
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .image-row {
+        ul {
+            display: flex;
+            justify-content: center;
+            padding-top: 90px;
+            padding-bottom: 90px;
+            li {
+                list-style: none;
+                padding-left: 35px;
+                padding-right: 35px;
+                img {
+                    width: 162px;
+                }
+            }
+        }
+    }
+}
+
+// section partners
+
+/*------------*/
+
+// section value
+.value {
+    background-color: $white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    .value_secon-heading {
+        font-family: Inter;
+        font-size: 75px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        color: $main-color;
+    }
+    .value-text {
+        font-family: "Open Sans";
+        font-size: 35px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        color: $main-color;
+        text-align: left;
+        margin-top: 35px;
+    }
+    .img-row {
+        .img-block-row {
+            margin-top: 100px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// section value
+
+/*-------------*/
+
+// section hightlights
+.highlights {
+    background-color: $main-color;
+    padding-top: 210px;
+    padding-bottom: 210px;
+    .header-highlight {
+        h2 {
+            font-family: Inter;
+            font-size: 75px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            color: $white;
+        }
+        .subtitle {
+            font-family: "Open Sans";
+            font-size: 35px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            color: $grey;
+            width: 579px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    }
+    .high_block {
+        padding-right: 170px;
+        .f_img {
+            width: 130px;
+        }
+        img {
+            width: 113px;
+        }
+        h3 {
+            padding-top: 25px;
+            padding-bottom: 25px;
+            color: $white;
+            font-family: "Open Sans";
+            font-size: 30px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+        }
+        p {
+            color: #adbdcc;
+            font-family: "Open Sans";
+            font-size: 30px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+        }
+    }
+}
+
+// section hightlights
+
+/*------------------*/
+
+// section cta
+.cta {
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 190px;
+    img {
+        width: 603px;
+        height: 70px;
+    }
+    h2 {
+        padding-top: 45px;
+        padding-bottom: 45px;
+        color: $main-color;
+        font-family: "Open Sans";
+        font-size: 75px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+    }
+    .cta_btn {
+        background-color: $main-color;
+        border: 4px solid $main-color;
+        border-radius: 35px;
+        color: $white;
+        padding: 9px 30px 9px 30px;
+        transition: 0.33s all;
+        &:hover {
+            background-color: transparent;
+            color: $main-color;
+        }
+    }
+    p {
+        margin: auto;
+        max-width: 1150px;
+        color: $main-color;
+        font-family: "Open Sans";
+        font-size: 35px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+}
+
+// section cta
+
+/*-----------*/
+
+// section product
+.product {
+    background-color: #fbfbfd;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    .row {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        align-items: center;
+    }
+    .product-info-col {
+        padding-right: 120px;
+        h3 {
+            color: #00bce8;
+            font-family: Inter;
+            font-size: 45px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+        }
+        h2 {
+            font-family: Inter;
+            font-size: 75px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            color: $main-color;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        p {
+            font-family: "Open Sans";
+            font-size: 35px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+        }
+    }
+    .product-img-block img {
+        text-align: center;
+        display: block;
+        margin: auto;
+        align-items: center;
+        width: 691px;
+        height: 675px;
+    }
+}
+
+// section product
+
+/*---------------*/
+
+// section features
+.features {
+    padding-top: 190px;
+    padding-bottom: 190px;
+    .features_block {
+        padding-left: 30px;
+        padding-right: 30px;
+        img {
+            width: 300px;
+            height: 300px;
+        }
+        h3 {
+            color: $main-color;
+            font-family: Inter;
+            font-size: 48px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            padding-top: 45px;
+            padding-bottom: 45px;
+        }
+        p {
+            color: $main-color;
+            font-family: "Open Sans";
+            font-size: 35px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+        }
+    }
+}
+
+// section features
+
+/*----------------*/
+
+// section testimonials
+.testimonials {
+    background-color: #fbfbfd;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    position: relative;
+    .divider {
+        right: 0;
+        left: 49%;
+        top: 19%;
+        bottom: 0;
+        position: absolute;
+        width: 2px;
+        height: 670px;
+        background-color: #f2f2f4;
+        // background-color: red;
+    }
+    .testi_block {
+        // width: 100%;
+        margin: auto;
+        img {
+            display: block;
+            margin: auto;
+            text-align: center;
+            width: 300px;
+            height: auto;
+        }
+        p {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-left: 15px;
+            padding-right: 15px;
+            color: $main-color;
+            font-family: "Open Sans";
+            font-size: 35px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+        }
+        .customer_info {
+            display: block;
+            width: 300px;
+            margin: auto;
+            b {
+                font-family: "Open Sans";
+                font-size: 35px;
+                font-weight: bold;
+                font-style: normal;
+                letter-spacing: normal;
+            }
+            small {
+                font-family: "Open Sans";
+                font-size: 35px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+            }
+        }
+    }
+}
+
+// section testimonials
+
+/*--------------------*/
+
+// section footer
+.foot {
+    background-color: $main-color;
+    padding-top: 80px;
+    .menu {
+        margin: auto;
+        .foot_menu {
+            list-style: none;
+            margin: auto;
+            text-align: right;
+            .menu_foot_items {
+                padding-top: 5px;
+                padding-bottom: 5px;
+                a {
+                    color: $white;
+                    text-decoration: none;
+                    font-family: "Open Sans";
+                    font-size: 35px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: normal;
+                }
+            }
+        }
+    }
+    .testing {
+        text-align: center;
+        .bx {
+            font-size: 30px;
+            color: $main-color;
+            background-color: $white;
+            padding: 6px 7px 9px 7px;
+            border-radius: 8px;
+            transition: all 0.33s;
+            border: 3px solid $white;
+            &:hover {
+                background-color: $main-color;
+                color: $white;
+                border: $white;
+            }
+        }
+    }
+    .rules {
+        padding-top: 100px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        font-family: "Open Sans";
+        font-size: 24px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        li {
+            list-style: none;
+            color: $white;
+            margin-right: 10px;
+            margin-left: 10px;
+            a {
+                color: $white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// section footer
