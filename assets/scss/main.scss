@@ -6,12 +6,26 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-    max-width: 2300px;
+@media(min-width: 320px) {
+    .container {
+        width: 100%;
+    }
 }
 
-.container-fluid {
-    max-width: 2300px;
+@media(min-width: 990px) {
+    .container {
+        width: 1125px;
+    }
+}
+
+@media(min-width: 1920px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+.navbar-brand img {
+    width: 250px !important;
 }
 
 // 
@@ -37,11 +51,10 @@
         .left-col {
             align-items: center;
             margin-top: 12%;
-            // padding-left: 6.5%;
             .heading h1 {
                 color: $white;
                 font-family: Inter;
-                font-size: 150px !important;
+                font-size: 91px !important;
                 font-weight: 600;
             }
             .text {
@@ -101,13 +114,24 @@
             }
         }
         .right-col {
+            // width: 100%;
             .block-img {
-                position: relative;
-                left: 146px;
-                top: 250px;
+                // top: 250px;
+                width: 100% !important;
                 img {
-                    width: 100%;
+                    position: absolute;
+                    width: 885px;
+                    // margin-right: -80px;
+                    right: 0;
+                    top: 13%;
+                    @media( max-width: 1919px) {
+                        width: 545px;
+                        top: 33%;
+                    }
                 }
+            }
+            @media( max-width:1200px) {
+                display: none;
             }
         }
     }
@@ -136,6 +160,15 @@
             justify-content: center;
             padding-top: 90px;
             padding-bottom: 90px;
+            @media(max-width: 1024px) {
+                display: block !important;
+                justify-content: center;
+                text-align: center;
+                li {
+                    margin-top: 15px;
+                    margin-bottom: 51px;
+                }
+            }
             li {
                 list-style: none;
                 padding-left: 35px;
@@ -157,14 +190,7 @@
     background-color: $white;
     padding-top: 200px;
     padding-bottom: 200px;
-    .value_secon-heading {
-        font-family: Inter;
-        font-size: 75px;
-        font-weight: 700;
-        font-style: normal;
-        letter-spacing: normal;
-        color: $main-color;
-    }
+    .value_secon-heading {}
     .value-text {
         font-family: "Open Sans";
         font-size: 35px;
@@ -196,16 +222,11 @@
     padding-bottom: 210px;
     .header-highlight {
         h2 {
-            font-family: Inter;
-            font-size: 75px;
-            font-weight: 700;
-            font-style: normal;
-            letter-spacing: normal;
             color: $white;
         }
         .subtitle {
             font-family: "Open Sans";
-            font-size: 35px;
+            font-size: 18px;
             font-weight: 400;
             font-style: normal;
             letter-spacing: normal;
@@ -216,7 +237,14 @@
         }
     }
     .high_block {
-        padding-right: 170px;
+        // padding-right: 170px;
+        @media(min-width: 768px) and (max-width: 1024px) {
+            padding-left: 60px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            // width: 100%;
+            text-align: center;
+        }
         .f_img {
             width: 130px;
         }
@@ -262,10 +290,6 @@
         padding-bottom: 45px;
         color: $main-color;
         font-family: "Open Sans";
-        font-size: 75px;
-        font-weight: 700;
-        font-style: normal;
-        letter-spacing: normal;
     }
     .cta_btn {
         background-color: $main-color;
@@ -318,11 +342,6 @@
             letter-spacing: normal;
         }
         h2 {
-            font-family: Inter;
-            font-size: 75px;
-            font-weight: 700;
-            font-style: normal;
-            letter-spacing: normal;
             color: $main-color;
             margin-top: 30px;
             margin-bottom: 30px;

@@ -86,17 +86,7 @@
                     padding-bottom: 30px;
                 }
             }
-            .right-col {
-                .block-img {
-                    position: relative;
-                    left: 146px;
-                    top: 250px;
-                    margin-right: -25px;
-                    img {
-                        width: 100%;
-                    }
-                }
-            }
+            .right-col {}
         }
     }
     .partners {
@@ -117,7 +107,7 @@
             padding-bottom: 30px !important;
             li {
                 list-style: none;
-                padding: 35px;
+                padding: 0px;
                 text-align: center !important;
                 img {
                     width: 262px !important;
@@ -148,7 +138,7 @@
             }
             .subtitle {
                 font-family: "Open Sans";
-                font-size: 25px;
+                font-size: 18px;
                 font-weight: 400;
                 font-style: normal;
                 letter-spacing: normal;
@@ -199,12 +189,12 @@
         padding-left: 15px;
         padding-right: 15px;
         .value_secon-heading {
-            font-family: Inter;
-            font-size: 35px;
-            font-weight: 700;
-            font-style: normal;
-            letter-spacing: normal;
-            color: $main-color;
+            // font-family: Inter;
+            // font-size: 35px;
+            // font-weight: 700;
+            // font-style: normal;
+            // letter-spacing: normal;
+            // color: $main-color;
         }
         .value-text {
             font-family: "Open Sans";
@@ -227,14 +217,8 @@
             height: 71px;
         }
         h2 {
-            padding-top: 45px;
-            padding-bottom: 45px;
             color: $main-color;
             font-family: "Open Sans";
-            font-size: 35px;
-            font-weight: 700;
-            font-style: normal;
-            letter-spacing: normal;
         }
         .cta_btn {
             background-color: $main-color;
@@ -274,11 +258,6 @@
                 letter-spacing: normal;
             }
             h2 {
-                font-family: Inter;
-                font-size: 35px;
-                font-weight: 700;
-                font-style: normal;
-                letter-spacing: normal;
                 color: $main-color;
                 margin-top: 30px;
                 margin-bottom: 30px;
@@ -548,7 +527,7 @@
     // section testimonials
 }
 
-@media(min-width: 769px) and (max-width:1921px) {
+@media(min-width: 769px) and (max-width:1920px) {
     // * {
     //     display: none;
     // }
@@ -577,17 +556,7 @@
                     padding-bottom: 30px;
                 }
             }
-            .right-col {
-                .block-img {
-                    position: relative;
-                    left: 0px;
-                    top: 0px;
-                    margin-right: -25px;
-                    img {
-                        width: 100%;
-                    }
-                }
-            }
+            .right-col {}
         }
     }
     // section partners
@@ -603,14 +572,13 @@
         }
         .image-row {
             ul {
-                display: flex;
+                display: block;
                 justify-content: center;
                 padding-top: 70px;
                 padding-bottom: 0px;
                 li {
                     list-style: none;
-                    padding-left: 35px;
-                    padding-right: 35px;
+                    padding: 10px;
                     img {
                         width: 162px;
                     }
@@ -626,15 +594,15 @@
         margin: auto;
         padding-top: 200px;
         padding-bottom: 200px;
-        padding-right: 145px;
-        padding-left: 145px;
+        // padding-right: 145px;
+        // padding-left: 145px;
         .value_secon-heading {
-            font-family: Inter;
-            font-size: 45px;
-            font-weight: 700;
-            font-style: normal;
-            letter-spacing: normal;
-            color: $main-color;
+            // font-family: Inter;
+            // font-size: 45px;
+            // font-weight: 700;
+            // font-style: normal;
+            // letter-spacing: normal;
+            // color: $main-color;
         }
         .value-text {
             font-family: "Open Sans";
@@ -658,20 +626,25 @@
         margin: auto;
         padding-top: 200px;
         padding-bottom: 200px;
-        padding-right: 145px;
-        padding-left: 145px;
+        // padding-right: 145px;
+        // padding-left: 145px;
+        .w-100 {
+            width: 500px !important;
+            margin: auto;
+            display: block;
+        }
         .header-highlight {
             h2 {
-                font-family: Inter;
-                font-size: 45px !important;
-                font-weight: 700;
-                font-style: normal;
-                letter-spacing: normal;
+                // font-family: Inter;
+                // font-size: 45px !important;
+                // font-weight: 700;
+                // font-style: normal;
+                // letter-spacing: normal;
                 color: $white;
             }
             .subtitle {
                 font-family: "Open Sans";
-                font-size: 25px;
+                font-size: 18px;
                 font-weight: 400;
                 font-style: normal;
                 letter-spacing: normal;
@@ -726,10 +699,6 @@
             padding-bottom: 45px;
             color: $main-color;
             font-family: "Open Sans";
-            font-size: 55px;
-            font-weight: 700;
-            font-style: normal;
-            letter-spacing: normal;
         }
         .cta_btn {
             background-color: $main-color;
@@ -745,10 +714,10 @@
         }
         p {
             margin: auto;
-            max-width: 1150px;
+            max-width: 650px;
             color: $main-color;
             font-family: "Open Sans";
-            font-size: 25px;
+            font-size: 18px;
             font-weight: 400;
             font-style: normal;
             letter-spacing: normal;
@@ -763,8 +732,8 @@
         background-color: #fbfbfd;
         padding-top: 180px;
         padding-bottom: 180px;
-        padding-right: 145px;
-        padding-left: 145px;
+        // padding-right: 145px;
+        // padding-left: 145px;
         .product-info-col {
             h3 {
                 color: #00bce8;
@@ -775,11 +744,6 @@
                 letter-spacing: normal;
             }
             h2 {
-                font-family: Inter;
-                font-size: 45px;
-                font-weight: 700;
-                font-style: normal;
-                letter-spacing: normal;
                 color: $main-color;
             }
             p {
@@ -802,8 +766,8 @@
     .features {
         padding-top: 190px;
         padding-bottom: 190px;
-        padding-right: 145px;
-        padding-left: 145px;
+        // padding-right: 145px;
+        // padding-left: 145px;
         .features_block {
             padding-left: 30px;
             padding-right: 30px;
@@ -835,8 +799,8 @@
         background-color: #fbfbfd;
         padding-top: 180px;
         padding-bottom: 180px;
-        padding-left: 145px;
-        padding-right: 145px;
+        // padding-left: 145px;
+        // padding-right: 145px;
         position: relative;
         .divider {
             right: 0;
@@ -970,4 +934,25 @@
         }
     }
     // section footer
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .product .product-img-block {
+        img {
+            width: 250px !important;
+            height: 250px;
+        }
+    }
+    .product-info-col {
+        text-align: center;
+        padding-right: 30px !important;
+        padding-left: 30px;
+    }
+    .features_block {
+        text-align: center;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
 }

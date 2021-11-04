@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+h2 {
+  font-size: 38px;
+  font-family: 'Inter';
+  font-weight: bold;
+  line-height: 1.27;
+  color: #0b2540; }
+
 @media (min-width: 320px) and (max-width: 768px) {
   .navbar .navbar-brand {
     width: 70% !important; }
@@ -64,13 +71,6 @@
       padding-right: 50px;
       padding-top: 30px;
       padding-bottom: 30px; }
-  .hero .hero-row .right-col .block-img {
-    position: relative;
-    left: 146px;
-    top: 250px;
-    margin-right: -25px; }
-    .hero .hero-row .right-col .block-img img {
-      width: 100%; }
   .partners {
     padding-top: 80px;
     padding-bottom: 80px; }
@@ -86,7 +86,7 @@
     padding-bottom: 30px !important; }
     .image-row ul li {
       list-style: none;
-      padding: 35px;
+      padding: 0px;
       text-align: center !important; }
       .image-row ul li img {
         width: 262px !important; }
@@ -109,7 +109,7 @@
       color: #fbfbfb; }
     .highlights .header-highlight .subtitle {
       font-family: "Open Sans";
-      font-size: 25px;
+      font-size: 18px;
       font-weight: 400;
       font-style: normal;
       letter-spacing: normal;
@@ -150,13 +150,6 @@
     padding-bottom: 12 0px;
     padding-left: 15px;
     padding-right: 15px; }
-    .value .value_secon-heading {
-      font-family: Inter;
-      font-size: 35px;
-      font-weight: 700;
-      font-style: normal;
-      letter-spacing: normal;
-      color: #0b2540; }
     .value .value-text {
       font-family: "Open Sans";
       font-size: 24px;
@@ -173,14 +166,8 @@
       width: 100%;
       height: 71px; }
     .cta h2 {
-      padding-top: 45px;
-      padding-bottom: 45px;
       color: #0b2540;
-      font-family: "Open Sans";
-      font-size: 35px;
-      font-weight: 700;
-      font-style: normal;
-      letter-spacing: normal; }
+      font-family: "Open Sans"; }
     .cta .cta_btn {
       background-color: #0b2540;
       border: 4px solid #0b2540;
@@ -212,11 +199,6 @@
         font-style: normal;
         letter-spacing: normal; }
       .product .product-info-col h2 {
-        font-family: Inter;
-        font-size: 35px;
-        font-weight: 700;
-        font-style: normal;
-        letter-spacing: normal;
         color: #0b2540;
         margin-top: 30px;
         margin-bottom: 30px; }
@@ -428,7 +410,7 @@
           font-style: normal;
           letter-spacing: normal; } }
 
-@media (min-width: 769px) and (max-width: 1921px) {
+@media (min-width: 769px) and (max-width: 1920px) {
   .navbar a {
     font-size: 18px; }
   .navbar .btn_demo .shedule_btn {
@@ -443,13 +425,6 @@
       padding-right: 50px;
       padding-top: 30px;
       padding-bottom: 30px; }
-  .hero .hero-row .right-col .block-img {
-    position: relative;
-    left: 0px;
-    top: 0px;
-    margin-right: -25px; }
-    .hero .hero-row .right-col .block-img img {
-      width: 100%; }
   .partners {
     background-color: #fff; }
     .partners .partners-text {
@@ -460,14 +435,13 @@
       max-width: 1300px;
       margin: auto; }
     .partners .image-row ul {
-      display: flex;
+      display: block;
       justify-content: center;
       padding-top: 70px;
       padding-bottom: 0px; }
       .partners .image-row ul li {
         list-style: none;
-        padding-left: 35px;
-        padding-right: 35px; }
+        padding: 10px; }
         .partners .image-row ul li img {
           width: 162px; }
   /*-------*/
@@ -475,16 +449,7 @@
     background-color: #fbfbfb;
     margin: auto;
     padding-top: 200px;
-    padding-bottom: 200px;
-    padding-right: 145px;
-    padding-left: 145px; }
-    .value .value_secon-heading {
-      font-family: Inter;
-      font-size: 45px;
-      font-weight: 700;
-      font-style: normal;
-      letter-spacing: normal;
-      color: #0b2540; }
+    padding-bottom: 200px; }
     .value .value-text {
       font-family: "Open Sans";
       font-size: 24px;
@@ -501,19 +466,16 @@
     background-color: #0b2540;
     margin: auto;
     padding-top: 200px;
-    padding-bottom: 200px;
-    padding-right: 145px;
-    padding-left: 145px; }
+    padding-bottom: 200px; }
+    .highlights .w-100 {
+      width: 500px !important;
+      margin: auto;
+      display: block; }
     .highlights .header-highlight h2 {
-      font-family: Inter;
-      font-size: 45px !important;
-      font-weight: 700;
-      font-style: normal;
-      letter-spacing: normal;
       color: #fbfbfb; }
     .highlights .header-highlight .subtitle {
       font-family: "Open Sans";
-      font-size: 25px;
+      font-size: 18px;
       font-weight: 400;
       font-style: normal;
       letter-spacing: normal;
@@ -556,11 +518,7 @@
       padding-top: 45px;
       padding-bottom: 45px;
       color: #0b2540;
-      font-family: "Open Sans";
-      font-size: 55px;
-      font-weight: 700;
-      font-style: normal;
-      letter-spacing: normal; }
+      font-family: "Open Sans"; }
     .cta .cta_btn {
       background-color: #0b2540;
       border: 4px solid #0b2540;
@@ -573,10 +531,10 @@
         color: #0b2540; }
     .cta p {
       margin: auto;
-      max-width: 1150px;
+      max-width: 650px;
       color: #0b2540;
       font-family: "Open Sans";
-      font-size: 25px;
+      font-size: 18px;
       font-weight: 400;
       font-style: normal;
       letter-spacing: normal;
@@ -586,9 +544,7 @@
   .product {
     background-color: #fbfbfd;
     padding-top: 180px;
-    padding-bottom: 180px;
-    padding-right: 145px;
-    padding-left: 145px; }
+    padding-bottom: 180px; }
     .product .product-info-col h3 {
       color: #00bce8;
       font-family: Inter;
@@ -597,11 +553,6 @@
       font-style: normal;
       letter-spacing: normal; }
     .product .product-info-col h2 {
-      font-family: Inter;
-      font-size: 45px;
-      font-weight: 700;
-      font-style: normal;
-      letter-spacing: normal;
       color: #0b2540; }
     .product .product-info-col p {
       font-family: "Open Sans";
@@ -616,9 +567,7 @@
       margin: auto; }
   .features {
     padding-top: 190px;
-    padding-bottom: 190px;
-    padding-right: 145px;
-    padding-left: 145px; }
+    padding-bottom: 190px; }
     .features .features_block {
       padding-left: 30px;
       padding-right: 30px; }
@@ -643,8 +592,6 @@
     background-color: #fbfbfd;
     padding-top: 180px;
     padding-bottom: 180px;
-    padding-left: 145px;
-    padding-right: 145px;
     position: relative; }
     .testimonials .divider {
       right: 0;
@@ -750,5 +697,20 @@
         .foot .rules li a {
           color: #fbfbfb;
           text-decoration: none; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .product .product-img-block img {
+    width: 250px !important;
+    height: 250px; }
+  .product-info-col {
+    text-align: center;
+    padding-right: 30px !important;
+    padding-left: 30px; }
+  .features_block {
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 40px;
+    margin-bottom: 40px; } }
 
 /*# sourceMappingURL=media_q.css.map */
